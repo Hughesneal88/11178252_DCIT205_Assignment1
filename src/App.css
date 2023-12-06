@@ -1,6 +1,12 @@
-@tailwind base;
+/* @config "./tailwind.dashboard.config.js"; */
+
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .App {
   text-align: center;
