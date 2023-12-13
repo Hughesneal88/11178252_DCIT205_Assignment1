@@ -10,5 +10,5 @@
     * Authentication Simulation(no real backend, Just a mock up, Simple redirect to Dashboard)
 
 - Dashboard Page
-    * Overview of Gradess
+    * Overview of Grades
     * 
