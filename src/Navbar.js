@@ -2,10 +2,12 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
+
 const navigation = [
-  { name: 'Dashboard', href: '/Dashboard', current: true },
-  { name: 'Complaints', href: '/Complaints', current: false },
-  { name: 'Grade Rerort', href: '/Grading', current: false },
+  { name: 'Dashboard', href: '/dashboard', current: false },
+  { name: 'Complaints', href: '/complaints', current: false },
+  { name: 'Grade Report', href: '/grading', current: false },
+  { name: 'Instructor Contact', href: '/contact', current: false },
   { name: 'Report Missing Grade', href: '/ReportGrade', current: false },
   { name: 'Help and Support', href: '/Help', current: false },
 ]

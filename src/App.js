@@ -20,9 +20,9 @@ export default function App(){
         <Route path="/login" element={<Login />}/>
         <Route path="/complaints" element={<><Navbar /><Complaints /></>} />
         <Route path="/contact" element={<><Navbar /><InstructorContact /></>} />
-        {/* <Route path="/report-grade" element={<><Navbar /><MissingGradeReport /></>} />
+        <Route path="/report-grade" element={<><Navbar /><MissingGradeReport /></>} />
         <Route path="/gradebook" element={<><Navbar /><GradeReport /></>} />
-        <Route path="/help" element={<><Navbar /><Help /></>} /> */}
+        <Route path="/help" element={<><Navbar /><Help /></>} />
       </Routes>
     </BrowserRouter>
   
