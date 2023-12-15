@@ -3,17 +3,17 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 // import './App.css';
-// import App from './App';
+import App from './App';
 // import Login from './LoginPage';
 // import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 import Complaints from './Complaints';
-import Landing from './LandingPage';
+// import Landing from './LandingPage';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <><Landing /></>
+   <><App /></>
 );
 {/* <Navbar /> */}
 // If you want to start measuring performance in your app, pass a function

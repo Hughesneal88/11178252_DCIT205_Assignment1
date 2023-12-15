@@ -1,20 +1,25 @@
-export default function Login() {
+
+
+export default function Login() {  
   return (
     <>
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-900">
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+        <a href='/'>
           <img
             className="mx-auto h-10 w-auto"
             src="/ug_standard_logo1.png"
             alt="University Logo"
-          />
+            ></img></a>
+          
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Sign in to your Student account
           </h2>
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-          <form className="space-y-6" action="#" method="POST">
+          <form className="space-y-6" action="/dashboard">
             <div>
               <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
                 Student ID
@@ -64,6 +69,7 @@ export default function Login() {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </>
   )
