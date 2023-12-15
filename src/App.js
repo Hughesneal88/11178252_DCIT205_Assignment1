@@ -8,6 +8,9 @@ import Navbar from "./Navbar";
 import Landing from "./LandingPage";
 import InstructorContact from "./InstructorContact";
 import Complaints from "./Complaints";
+import MissingGradeReport from "./missingGradeform";
+import GradeReport from "./gradeReport";
+import Help from './help';
 
 
 export default function App(){
@@ -16,13 +19,13 @@ export default function App(){
     {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/dashboard" element={<><Navbar /><Dashboard /></>} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/login" element={<Login />}/>
-        <Route path="/complaints" element={<><Navbar /><Complaints /></>} />
-        <Route path="/contact" element={<><Navbar /><InstructorContact /></>} />
-        <Route path="/report-grade" element={<><Navbar /><MissingGradeReport /></>} />
-        <Route path="/gradebook" element={<><Navbar /><GradeReport /></>} />
-        <Route path="/help" element={<><Navbar /><Help /></>} />
+        <Route path="/complaints" element={<Complaints />} />
+        <Route path="/contact" element={<InstructorContact /> } />
+        <Route path="/report-grade" element={<MissingGradeReport />} />
+        <Route path="/gradebook" element={<GradeReport />} />
+        <Route path="/help" element={<Help />} />
       </Routes>
     </BrowserRouter>
   
